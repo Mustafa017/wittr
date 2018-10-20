@@ -20,7 +20,6 @@ self.addEventListener('activate', function(event) {
   event.waitUntil(
     // TODO: remove the old cache
     caches.delete('wittr-static-v1')
-    caches.delete('wittr-static-v3')
   );
 });
 
